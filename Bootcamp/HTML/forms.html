@@ -10,7 +10,7 @@
 	<!-- method - what HTTP method (get/post)-->
 	<!-- by default, if we don't specify a method, it is going to be a GET request-->
 
-	<!-- <form>
+	<form>
 		<h1>Login</h1>
 		<label>
 			username:
@@ -21,17 +21,26 @@
 	    	<input type="password" placeholder="password">
 	    </label>
 	    <button>Submit</button>
-	</form> -->
+	</form>
 	<!-- alternative syntax, using "for" and "id" attributes -->
-	<!-- validations referred to ability to enforce rules and structures on different parts of form -->
-	<!-- simple validations with on plain text just HTML:  -->
-	<!-- presence validation: the "required" attribute validates that an input is not empty-->
 
+	<!-- validations referred to ability to enforce rules and structures on different parts of form -->
+	<!-- simple form validations with on plain text just HTML:  -->
+
+	<!-- presence validation: the "required" attribute validates that an input is not empty-> make sure something is there-->
 	<form>
-		<h1>Login</h1>
-		<label for="username">username:</label>
+		<h1>Login 1</h1>
+		<label for="username">Username:</label>
 		<input id="username" type="text" placeholder="username" required>
-	    <label for="password">password:</label>
+	    <label for="password">Password:</label>
+	    <input id="password" type="password" placeholder="password" required>
+	    <button>Submit</button>
+	<!-- type validation: based on data type or the format of data-> make sure the format type is exact-->
+	</form> <form>
+		<h1>Login 2</h1>
+		<label for="username">Email:</label>
+		<input id="username" type="email" placeholder="email" required>
+	    <label for="password">Password:</label>
 	    <input id="password" type="password" placeholder="password" required>
 	    <button>Submit</button>
 	</form> 
