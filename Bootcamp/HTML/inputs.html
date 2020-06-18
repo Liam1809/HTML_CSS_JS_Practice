@@ -7,19 +7,40 @@
 	<title>Inputs Demo</title>
 </head>
 <body>
-	<p>Do you prefer cats or dogs?</p>
 	<form>
+		<p>Do you prefer cats or dogs?</p>
 		<!-- radio button -->
 		<!-- radio button has one choice only, different than checkbox which we can on off -->
 		<!-- <label for="check">Check box:</label> -->
-		<!-- declare the same "name" attribute as "petchoice" for dogs and cats to set two radio buttons to have one choice -->
+		<!-- declare the same "name" attribute with variable as "petchoice" for dogs and cats to set two radio buttons to have one choice -->
+		<!-- A name attribute to set the name of the associated data point submitted to the server when the form is submitted. -->
 		<label for="dogs">Dogs:</label>
-		<input name="petchoice" id="dogs" type="radio" value="dogs">
+		<input name="petchoice" id="dogs" type="radio" value="DOGS">
 
 		<label for="cats">Cats:</label>
-		<input name="petchoice" id="cats" type="radio" value="cats">
+		<input name="petchoice" id="cats" type="radio" value="CATS">
+
+		<!-- select tag - a dropdown menus -->
+		<p>What is your favorite color?</p>
+		<!-- browser takes whatever that the text is inside of that option and it just sends that as value under the name color -->
+		<select name="color">
+			<option>red</option>
+			<option>yellow</option>
+			<option>blue</option>
+		</select>
+		<p>What is your current mood?</p>
+		<!-- if we don't want the value that is sent along in the request to be identical to whatever is displayed to the user in dropdown, we use value attribute -->
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<p>Introduce yourself</p>
+		<!-- textarea tag -->
+		<textarea name="paragrath" rows="10" cols="50" placeholder="fill something in"></textarea>
 		<!-- few ways to submit a form: either use input with type "submit" or button tag at the end of the form -->
-		<!-- if the button is at the last of the form, it's going to submit the form -->
+		<!-- if the button is the last of the form, it's going to submit the form -->
 		<button>Send</button>
 		<!-- <input type="submit"> -->
 	</form>
