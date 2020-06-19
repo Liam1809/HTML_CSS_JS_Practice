@@ -7,3 +7,5 @@
 # [How the Internet Works](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
 
 # [What is Web Hosting?](https://www.website.com/beginnerguide/webhosting/6/1/what-is-web-hosting?.ws)
+
+# # [color picker reference](https://htmlcolorcodes.com/color-picker/)
