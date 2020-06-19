@@ -41,7 +41,10 @@ li {
   6 digits: # _ _   _ _  _ _
               red  green blue*/
 body {
-	background: #9E89F0;
+	/*background: #9E89F0;*/
+	background: url(https://i.pinimg.com/originals/fe/22/ae/fe22ae73d75918c5f697e1adebb155fe.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 } 
 
 div {
@@ -49,8 +52,8 @@ div {
 }
 
 h1 {
-	color: #FFFFFF;
-	background: #F09E89;
+	color: #9E89F0;
+	
 }
 
 h2 {
