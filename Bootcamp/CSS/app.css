@@ -1,9 +1,46 @@
+/*Elementary colors*/
+/*h1{
+	color: blue;
+}
 
+h2{
+	color: green;
+}
 
+li{
+	color: orange;
+}*/
+/*RGB colors
+  3 channels: RED, GREEN, BLUE. Each ranges from 0 - 255*/
+/*h1{
+	color: rgb(151,91,149);
+}
+
+h2{
+	color: rgb(168,226,171);
+}
+
+li{
+	color: rgb(107,47,126); 
+}*/
+/*Just like RGB,
+  but with an alpha(transparency) channel to make color transparent.  
+  Ranges from 0.0 - 1.0*/
+h1{
+	color: rgba(151,91,149,1);
+}
+
+h2{
+	color: rgba(151,91,149,.5);
+}
+
+li{
+	color: rgba(151,91,149,.3); 
+}
 /*hexadecimal colors
   6 digits: # _ _   _ _  _ _
               red  green blue */
-h1{
+/*h1{
 	color: #19B78C;
 }
 
@@ -14,3 +51,4 @@ h2{
 li{
 	color: #975B95; 
 }
+*/
