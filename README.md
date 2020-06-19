@@ -8,4 +8,4 @@
 
 # [What is Web Hosting?](https://www.website.com/beginnerguide/webhosting/6/1/what-is-web-hosting?.ws)
 
-# # [color picker reference](https://htmlcolorcodes.com/color-picker/)
+# [color picker reference](https://htmlcolorcodes.com/color-picker/)
