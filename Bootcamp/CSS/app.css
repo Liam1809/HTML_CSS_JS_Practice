@@ -41,10 +41,11 @@ li {
   6 digits: # _ _   _ _  _ _
               red  green blue*/
 body {
-	/*background: #9E89F0;*/
-	background: url(https://i.pinimg.com/originals/fe/22/ae/fe22ae73d75918c5f697e1adebb155fe.png);
+	background: rgb(18,225,235);
+	/*background: url(https://i.pinimg.com/originals/fe/22/ae/fe22ae73d75918c5f697e1adebb155fe.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+
 } 
 
 div {
@@ -53,6 +54,14 @@ div {
 
 h1 {
 	color: #9E89F0;
+	/*width
+	style 
+	color */
+	/*border-color: rgb(20,150,70);
+	border-style: solid;
+	border-width: 10px;*/
+	/* equivalent syntax*/
+	border: 5px dotted rgb(20,150,70);
 	
 }
 
