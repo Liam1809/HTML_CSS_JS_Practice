@@ -7,21 +7,24 @@ body {
 div {
 	border: 3px solid rgb(0,0,0);
 }
-h1 {
+/*h1 {
 	color: rgba(100,0,150,.6);
 	border: 2px dotted rgb(250,250,250);
-}
+}*/
 /*li {
 	color: rgba(10,20,200,.6);
 }*/
 /*ID selector: selects an element with a given ID
   only one per page only*/
+/*the idea is to single out an element, 
+ we can actually use one same id for several element,
+ but it is not a good practice, since id is supposed to be an unique identifier*/
 #todo {
-	color: rgb(0,0,0);
+	color: rgb(250,0,0);
 }
-#job {
+/*#job {
 	color: rgb(250,250,250);
-}
+}*/
 #div1 {
 	background: no-repeat radial-gradient(crimson, skyblue);
 }
