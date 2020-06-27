@@ -75,5 +75,5 @@ if FAMILY_NAME isn't displayed, the fallback font which is GENERIC_NAME will be 
 <img class="class1 class2">*/
 .red-border {
 	border: 3px dashed red;
-	border-radius: 100px;
+	border-radius: 50%;
 }
