@@ -67,12 +67,13 @@ if FAMILY_NAME isn't displayed, the fallback font which is GENERIC_NAME will be 
 }
 
 .icon-size {
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 }
 /*Remember that you can apply multiple classes to an element using its class attribute, by separating each class name with a space. For example:
 
 <img class="class1 class2">*/
 .red-border {
 	border: 3px dashed red;
+	border-radius: 100px;
 }
