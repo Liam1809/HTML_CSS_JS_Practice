@@ -53,12 +53,15 @@ h3 {
 h4 {
 	font-family: monospace;
 }
+/*tell browser to degrade to another font 
+font-family: FAMILY_NAME, GENERIC_NAME;
+if FAMILY_NAME isn't displayed, the fallback font which is GENERIC_NAME will be */
 .paragraph1 {
-	font-family: "Dancing Script";
+	font-family: "Dancing Script", monospace;
 }
 .paragraph2 {
-	font-family: Piedra;
+	font-family: Piedra, sans-serif;
 }
 .paragraph3 {
-	font-family: Orbitron;
+	font-family: Orbitron, serif;
 }
