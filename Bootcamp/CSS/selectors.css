@@ -43,5 +43,22 @@ li:nth-of-type(odd) {
 	background-color: lightgreen;
 }
 
-
-
+h1 {
+	font-size:60px;
+	font-family: fantasy;
+}
+h3 {
+	font-family: monospace;
+}
+h4 {
+	font-family: monospace;
+}
+.paragraph1 {
+	font-family: "Dancing Script";
+}
+.paragraph2 {
+	font-family: Piedra;
+}
+.paragraph3 {
+	font-family: Orbitron;
+}
