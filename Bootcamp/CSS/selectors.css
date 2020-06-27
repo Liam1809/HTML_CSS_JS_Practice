@@ -1,0 +1,47 @@
+/*Element*/
+/*li {
+
+ }*/
+ /*ID*/
+/*#special {
+
+ }*/
+ /*Class*/
+/*.highlight {
+
+}*/
+/*Star
+The star symbol will target every single element on the page.*/
+* {
+	border: 2px solid lightgrey;
+}
+
+/*Descendant selector selects nested elements
+ When you need to be more specific with your selectors, you use these. 
+ For example, what if, rather than targeting all anchor tags, you only need to target the anchors which are within an unordered list? This is specifically when you'd use a descendant selector.*/
+li a {
+	color: red;
+}
+/*Adjacent selector selects elements that come after element, not nested inside, directly after same level element*/
+h3 + p {
+	border: 2px solid red;
+}
+
+/*Attribute selector selects elelemts based on attributes*/
+/*syntax
+element[attribute] {
+}
+*/
+a[href="http://www.google.com"] {
+	background: lightgreen;
+}
+/*nth of type selects every nth of specific element*/
+li:nth-of-type(even) {
+	background-color: lightyellow;
+}
+li:nth-of-type(odd) {
+	background-color: lightgreen;
+}
+
+
+
