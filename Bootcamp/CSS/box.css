@@ -23,24 +23,19 @@
     padding:20px;
     margin: 25px;
 }
-
+/* Use Clockwise Notation to Specify the Padding and Margin of an Element
+   Top Right Bottom Left*/
 .red-box {
     background-color: crimson;
     color: #fff;
     padding: 10px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 40px 20px 20px 40px;
 }
 
 .blue-box {
     background-color: blue;
     color: #fff;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    padding-top: 40px 20px 20px 40px;
     margin: -25px;
 }
 body {
