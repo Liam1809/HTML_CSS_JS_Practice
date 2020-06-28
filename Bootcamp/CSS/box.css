@@ -1,0 +1,41 @@
+.injected-text {
+    margin-bottom: -20px;
+    text-align: center;
+}
+/*padding*/
+/*hree important properties control the space that surrounds each HTML element: padding, margin, and border.*/
+/*An element's padding controls the amount of space between the element's content and its border.*/
+/*When you increase the blue box's padding, it will increase the distance (padding) between the text and the border around it.*/
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+}
+/*margin*/
+/*An element's margin controls the amount of space between an element's border and surrounding elements.*/
+/*When you increase the box's margin, it will increase the distance between its border and surrounding element, in other words, the element will get smaller
+  if you set a negative margin meaning you decrease the margin, the element will get larger.*/
+
+.yellow-box {
+    background-color: yellow;
+    padding:20px;
+    margin: 25px;
+}
+
+.red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    margin: 30px;
+}
+
+.blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    margin: -25px;
+}
+body {
+  border: 2px solid black;
+}
