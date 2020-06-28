@@ -1,6 +1,7 @@
 .injected-text {
-    margin-bottom: -20px;
+    margin-left: -10px;
     text-align: center;
+    background: lightgrey;
 }
 /*padding*/
 /*hree important properties control the space that surrounds each HTML element: padding, margin, and border.*/
@@ -33,7 +34,10 @@
 .blue-box {
     background-color: blue;
     color: #fff;
-    padding: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 20px;
     margin: -25px;
 }
 body {
