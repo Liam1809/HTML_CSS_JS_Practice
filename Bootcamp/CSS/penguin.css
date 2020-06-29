@@ -1,6 +1,7 @@
 /*:root is a pseudo-class selector that matches the root element of the document, usually the html element. 
 By creating your variables in :root, they will be available globally and can be accessed from any other selector in the style sheet.*/
 :root {
+    --penguin-size: 300px;
     --penguin-skin: gray;
     --penguin-belly: pink;
     --penguin-beak: orange;
@@ -8,6 +9,12 @@ By creating your variables in :root, they will be available globally and can be 
 
   body {
     background: var(--penguin-belly, #c6faf1);
+  }
+  @media (max-width: 600px) {
+    :root{
+      --penguin-size: 150px;
+      --penguin-skin: skyblue;
+    }
   }
 
   .penguin {
