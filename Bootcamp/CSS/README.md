@@ -8,3 +8,15 @@
 -  red green blue
 - in hexa : max FF
 # [color picker reference](https://htmlcolorcodes.com/color-picker/)
+
+# specificity
+- Type selectors 
+        - li { } #element 
+        - li a { } #descedant 
+        - li + a { } #adjacent 
+- Class, Attribute, and Pseudo-Class selector
+        - .Highlight { } #class  
+        - input[type="text"] { } #attribute
+        - :root { } #peseudo class
+- ID selector
+        - #special { }
