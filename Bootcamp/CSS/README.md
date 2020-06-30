@@ -10,13 +10,14 @@
 # [color picker reference](https://htmlcolorcodes.com/color-picker/)
 
 # specificity
-- Type selectors 
+## Type selectors 
         - li { } #element 
         - li a { } #descedant 
         - li + a { } #adjacent 
-- Class, Attribute, and Pseudo-Class selector
+## Class, Attribute, and Pseudo-Class selector
         - .Highlight { } #class  
         - input[type="text"] { } #attribute
         - :root { } #peseudo class
-- ID selector
+## ID selector
         - #special { }
+# [CSS Font Stack](https://www.cssfontstack.com)
