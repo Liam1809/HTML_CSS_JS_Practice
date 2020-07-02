@@ -1,0 +1,29 @@
+/*font-family
+  font-size
+  font-weight
+  line-height
+  text-align
+  text-decoration*/
+/*https://dev.to/prashantandani/quick-guide-to-css-units-px-em-rem-4lic?fbclid=IwAR3_gMftRkZ97s-zfjZvd-cqWoCwhbmyUjCm5pxGAnrXf1t-C0wkG5362hA*/
+/*Em is equal to the size of the font that applies to the parent of the element*/
+ body {
+ 	font-size: 16px;
+ 	/*controls how small and big the font is*/
+ }
+ h1 {
+ 	font-family: monospace;
+ 	font-size:5.0em; 
+ 	/*h1 has body as parent*/
+ 	/*5.0em = 5 * 10px = 50px*/
+ }
+ p {
+ 	font-family: "Century Gothic";
+ 	font-size: 2.0em;
+ 	/*p has body as parent*/
+ 	/*2.0em = 2 * 10px = 20px*/
+ }
+ span {
+ 	font-size: 2.0em;
+ 	/*span has p as parent*/
+ 	/*2.0em of p 2.0em = 2 * 20px = 40px*/
+ }
