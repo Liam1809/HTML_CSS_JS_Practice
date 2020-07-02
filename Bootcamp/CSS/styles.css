@@ -19,7 +19,7 @@
  	/*controls how text in a given element should be aligned in the left, right or center*/
  }
  p {
- 	font-family: "Century Gothic";
+ 	font-family: Yellowtail, sanrif;
  	font-size: 2.0em;
  	/*p has body as parent*/
  	/*2.0em = 2 * 10px = 20px*/
