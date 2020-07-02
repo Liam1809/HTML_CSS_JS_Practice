@@ -7,7 +7,7 @@
 /*https://dev.to/prashantandani/quick-guide-to-css-units-px-em-rem-4lic?fbclid=IwAR3_gMftRkZ97s-zfjZvd-cqWoCwhbmyUjCm5pxGAnrXf1t-C0wkG5362hA*/
 /*Em is equal to the size of the font that applies to the parent of the element*/
  body {
- 	font-size: 16px;
+ 	font-size: 10px;
  	/*controls how small and big the font is*/
  }
  h1 {
@@ -15,15 +15,24 @@
  	font-size:5.0em; 
  	/*h1 has body as parent*/
  	/*5.0em = 5 * 10px = 50px*/
+ 	text-align: center;
+ 	/*controls how text in a given element should be aligned in the left, right or center*/
  }
  p {
  	font-family: "Century Gothic";
  	font-size: 2.0em;
  	/*p has body as parent*/
  	/*2.0em = 2 * 10px = 20px*/
+ 	font-weight: normal;
+ 	/*The font-weight CSS property sets the weight (or boldness) of the font. The weights available depend on the font-family you are using.
+ 	. Controls how thick the font is, how bold or light the text is*/
+ 	line-height: 1.5;
+ 	/*controls the height of the given line*/
  }
  span {
  	font-size: 2.0em;
  	/*span has p as parent*/
  	/*2.0em of p 2.0em = 2 * 20px = 40px*/
+ 	text-decoration: line-through;
+ 	/*controls how text should be decorated, linethrough, underline,...*/
  }
