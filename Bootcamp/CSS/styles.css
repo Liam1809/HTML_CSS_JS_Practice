@@ -17,6 +17,17 @@
  	/*5.0em = 5 * 10px = 50px*/
  	text-align: center;
  	/*controls how text in a given element should be aligned in the left, right or center*/
+
+ 	/*Content - Width and Height*/
+ 	width: 50%;
+ 	/*Border*/
+ 	border: 2px solid lightgray;
+ 	/*Padding*/
+ 	padding: 100px 20px 40px 100px;
+ 	/*Margin*/
+ 	margin: auto 0 auto 0;
+ 	/*margin: 0 auto;
+
  }
  p {
  	font-family: Yellowtail, sanrif;
