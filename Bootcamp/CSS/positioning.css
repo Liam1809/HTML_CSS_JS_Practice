@@ -1,0 +1,124 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+h1 {
+	background: #456FA0;
+	color: #FFFF;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 10px;
+	width: 100%;
+	letter-spacing: 0.4rem;
+}
+
+.boxes {
+	background: #D3E0E3;
+	width: 100%;
+	padding: 20px 10px;
+	text-align: center;
+	position: absolute;
+}
+.box {
+	width: 60%;
+	margin: auto;
+	padding: 40px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	
+}
+/*top - vertical shifting
+  left - horizontal shifting*/
+/*.box1 {
+	background: #FFBD00;
+	static - default value, not doing anything
+	position: static;
+	top: 0;
+	left: 0;
+}*/
+/*.box2 {
+	background: lightgreen;
+	fixed 
+	- it takes an element out of the full of the document
+	  and we control the top and left starting from the top and left corner of the browser
+	- it overlaps on top of other boxes
+	- current position will be taken up from other box since box2 is not there anymore
+	- it is fixed to the position along with the browser when scrolling the page and will not move  
+	position: fixed;
+	top: 600px;
+	left: 400px;
+}*/
+/*.box3 {
+	background: #DBA36A;
+	inherit - inherit position property from its boxes parent
+	position: inherit;
+	top: 0;
+	left: 0;
+}*/
+/*.box4 {
+	background: #65AFFF;
+	relative
+	- starting point is where it would have been, positioned from where it would have been
+	- current position will not be taken up from other boxes
+	position: relative;
+	top: 20px;
+	left: 100px;
+}*/
+/*.box5 {
+	background: lightpink;
+	absolute - works like fixed
+	- but it is not fixed and moved along with the browser when scrolling
+	- when you give an element a position of absolute in position it is relative to the nearest parent that is not statically positioned
+	- starting point either is thee top left corner of browser or the nearest parent that's not statically positioned 
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+
+/* Overlapping boxes */
+.box1 {
+	background: #FFBD00;
+	z-index: 1;
+}
+.box2 {
+	background: lightgreen;
+	position: absolute;
+	top:  50px;
+	left: 140px;
+	z-index: 2;
+	
+}
+.box3 {
+	background: #DBA36A;
+	position: absolute;
+	top: 80px;
+	left: 150px;
+	z-index: 3;
+
+}
+.box4 {
+	background: #65AFFF;
+	position: absolute;
+	top: 120px;
+	left: 160px;
+	z-index: 4;
+}
+.box5 {
+	background: lightpink;
+	position: absolute;
+	top: 150px;
+	left: 170px;
+	z-index: 5;
+	
+}
+
+.blackout {
+	background: lightgray;
+	width: 100%;
+	height: 1000px;
+}
