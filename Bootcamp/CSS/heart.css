@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table {
+	margin: 100px 100px;
+}
+
+td {
+	width: 150px;
+	height: 150px;
+}
+
+.box {
+	position: absolute;
+	margin: auto;
+	top: 60px;
+	left: 350px;
+}
+
+.vertical {
+	border-left: 4px dotted pink;
+	border-right: 4px dotted pink
+}
+
+.horizontal {
+	border-top: 4px dotted pink;
+	border-bottom: 4px dotted pink;
+}
+
+.heart {
+	background: pink;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	transform: rotate(-45deg);
+	border-bottom: 0.2px solid rgba(0,0,0,0.3);
+	border-left: 0.5px solid rgba(0,0,0,0.3);
+	animation-name: rainbow;
+	animation-duration: 20s;
+}
+
+.heart::before {
+	content: "";
+	border-top: 2px solid rgba(0,0,0,0.6);
+	background: pink;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	animation-name: rainbow;
+	animation-duration: 20s;
+}
+
+.heart::after {
+	content: "";
+	border-right: 2px solid rgba(0,0,0,0.6);	
+	background: pink;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 25px;
+	animation-name: rainbow;
+	animation-duration: 20s;
+}
+
+p {
+	font-family: "Dancing Script", monospace;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 0.5rem;
+	max-width: 700px;
+	width: 80%;
+	margin: auto;
+	animation-name: rainbow;
+	animation-duration: 20s;
+}
+button {
+	border-radius: 5px;
+	color: white;
+	background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+	position: relative;
+	top: 0;
+	left: 30px;
+}
+button:hover {
+	animation-name: button1;
+	animation-duration: 500ms;
+}
+@keyframes rainbow {
+	0% {
+		background-color: #E35448;
+	}
+	10% {
+		background-color: #E38548;
+	}
+	20% {
+		background-color: #E3AA48;
+	}
+	30% {
+		background-color: #E3C848;
+	}
+	40% {
+		background-color: #D7E348;
+	}
+	50% {
+		background-color: #8DE348;
+	}
+	60% {
+		background-color: #48E36A;
+	}
+	70% {
+		background-color: #48E3C8;
+	}
+	80% {
+		background-color: #488DE3;
+	}
+	90% {
+		background-color: #6548E3;
+	}
+	100% {
+		background-color: #C148E3;
+	}
+}
+@keyframes button1 {
+	100% {
+		background-color: #4791d0;
+	}
+}
