@@ -159,6 +159,7 @@ button:hover {
 @keyframes bgcolor {
 	0% {
 		background-color: #48E36A;
+		left: 25px;
 	}
 	50% {
 		background-color: #48E3C8;
