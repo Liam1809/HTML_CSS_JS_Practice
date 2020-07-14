@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="/Users/hkhanhlam99/Desktop/Repo/HTML_CSS_JS_Practice/Bootcamp/bootstrap-3.4.1-dist/css/bootstrap.css">
+	<style type="text/css">
+		.pink {
+			background: pink;
+			border: 1px solid black;
+		}
+		.blue {
+			background: skyblue;
+			border: 1px solid black;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<!-- OBJECTIVES -->
+	<!-- Purpose of Grid System is to lay things out-->
+	<!-- in a nutshell, we have 12 units in every row -->
+	<!-- Four sizes of grid: large, medium, small, extra small  -->
+	<!-- Nested grids -->
+	<!-- everytime we use bootstrap grid, it needs to be inside a container -->
+	<div class="container">
+		<!-- large medium small ex -->
+		<!-- <div class="row">
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+			<div class="col-lg-1 col-md-2 col-sm-3 col-xs-4 pink">COL LG 1</div>
+		</div> -->
+		<div class="row">
+			<div class=" col-md-3  col-sm-6 pink">
+				<div class="row">
+					<div class="col-lg-6 blue">First Half</div>
+					<div class="col-lg-6 blue">Other Half</div>
+				</div>
+			</div>
+			<div class=" col-md-3 col-sm-6 pink">TOUR DATE</div>
+			<div class=" col-md-3  col-sm-6 pink">TOUR DATE</div>
+			<div class=" col-md-3  col-sm-6 pink">
+				<div class="row">
+					<div class="col-lg-2 blue">Half</div>
+					<div class="col-lg-2 blue">Half</div>
+					<div class="col-lg-2 blue">Half</div>
+					<div class="col-lg-2 blue">Half</div>
+					<div class="col-lg-2 blue">Half</div>
+					<div class="col-lg-2 blue">Half</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
