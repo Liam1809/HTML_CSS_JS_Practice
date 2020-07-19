@@ -11,3 +11,5 @@
 # [color picker reference](https://htmlcolorcodes.com/color-picker/)
 
 # [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+
+# [Font Awesome - icons](https://fontawesome.com/v4.7.0/icons/)
