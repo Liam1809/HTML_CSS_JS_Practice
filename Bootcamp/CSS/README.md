@@ -21,3 +21,6 @@
 ## ID selector
         - #special { }
 # [CSS Font Stack](https://www.cssfontstack.com)
+
+# background shorthand syntax
+- background: [background-image] [background-position] / [background-size] [background-repeat] [background-attachment] [background-origin] [background-clip] [background-color];
