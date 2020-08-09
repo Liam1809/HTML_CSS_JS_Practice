@@ -7,20 +7,20 @@ do {
 	// ask for new input
 	var answer = prompt("What do you want to do?");
 	// handle input
-	if(answer == "new") {
+	if(answer.indexOf("new") !== -1) {
 		// new todo list request
 		newTodo();
 	}
 	// show todo list request
-	else if(answer == "list") {
+	else if(answer.indexOf("list") !== -1) {
 		showTodo();
 	}
 	// delete request
-	else if(answer == "delete") {
+	else if(answer.indexOf("delete") !== -1) {
 		deleteTodo();
 	}
 }
-while(answer != "quit");
+while(answer !== "quit");
 
 function newTodo() {
 	// new todo list request
