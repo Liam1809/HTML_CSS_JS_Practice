@@ -29,9 +29,9 @@ var buildMovie = function(movie) {
 		result += "not seen ";
 	}
 	result += "\"" + movie.title + "\"" + " - " + movie.rating + " stars";
-	console.log(result); 
+	return result; 
 };
 
 movies.forEach(function(movie){
-	buildMovie(movie);
+	console.log(buildMovie(movie));
 });
