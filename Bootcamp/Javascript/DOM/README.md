@@ -93,3 +93,52 @@ tag.classList.remove("another-class");
 //TOGGLE A CLASS
 tag.classList.toggle("another-class");
 ```
+
+## textContent
+- Returns a string of all the text contained in a given element not including the given element
+- Extract only the text and return a big string full of text
+
+```sh
+<p>
+  This is an <strong>awesome</strong> paragraph 
+</p>
+```
+
+```sh
+/Select the <p> tag:
+var tag = document.querySelector("p");
+
+//Retrieve the textContent:
+tag.textContent //"This is an awesome paragraph"
+
+//alter the textContent:
+tag.textContent = "blah blah blah";
+tag //"blah blah blah";
+
+tag.textContent = "blah <strong>blah</strong> blah"
+tag //"blah <strong>blah</strong> blah"
+
+```
+
+## innerHTML
+- Similar to textContent, except it returns a string of all the HTML contained in a given element
+
+```sh
+<p>
+  This is an <strong>awesome</strong> paragraph 
+</p>
+```
+
+```sh
+//Select the <p> tag:
+var tag = document.querySelector("p");
+
+tag.innerHTML
+//"This is an <strong>awesome</strong> paragraph"
+
+tag.innerHTML = "This is awesome";
+tag //"This is awesome"
+
+tag.innerHTML = "This is <strong>awesome</strong>";
+tag //"This is awesome" (awesome bolded)
+```
