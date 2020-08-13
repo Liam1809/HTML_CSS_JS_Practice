@@ -1,0 +1,6 @@
+.big {
+	font-size: 100px;
+	color: blue;
+	border: 10px solid red;
+	transition: 2000ms;
+}
