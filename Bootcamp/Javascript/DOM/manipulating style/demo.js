@@ -29,3 +29,11 @@ var yellow = document.querySelectorAll("li")[3];
 console.log(yellow);
 console.log(yellow.innerHTML);
 yellow.innerHTML = "<strong><em>Yellow</em></strong> is not my fav color";
+
+// Attribute
+var img = document.querySelector("img");
+// getAttribute()
+console.log(img.getAttribute("src"));
+// setAttribute()
+img.setAttribute("src","https://gdb.voanews.com/D1AC130C-23B0-4F22-A474-0CE5A310313C_w1080_h608_s.jpg");
+console.log(img.getAttribute("src"));
