@@ -164,3 +164,31 @@ var img = document.querySelector("img");
 img.setAttribute("src", "corgi.png");
 //<img src="corgi.png">
 ```
+# Advanced DOM Manipulation
+
+## addEventListener
+
+```sh
+element.addEventListener(type, functionToCall);
+```
+
+```sh
+var button = document.querySelector("button");
+button.addEventListener("click", function() {
+  console.log("SOMEONE CLICKED THE BUTTON!");
+});
+```
+
+```sh
+var paragraph = document.querySelector("p");
+
+//SETUP MOUSE OVER LISTENER
+paragraph.addEventListener("mouseover", function() {
+  this.textContent = "Stop hovering over me!";
+});
+
+//SETUP MOUSE OUT LISTENER
+paragraph.addEventListener("mouseout", function() {
+  this.textContent = "Phew, thank you for leaving me alone";
+});
+```

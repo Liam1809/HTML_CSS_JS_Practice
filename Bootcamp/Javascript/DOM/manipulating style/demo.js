@@ -37,3 +37,14 @@ console.log(img.getAttribute("src"));
 // setAttribute()
 img.setAttribute("src","https://gdb.voanews.com/D1AC130C-23B0-4F22-A474-0CE5A310313C_w1080_h608_s.jpg");
 console.log(img.getAttribute("src"));
+
+
+var button = document.querySelector("button");
+var h1 = document.querySelector("h1");
+// element.addEventListener(type, functionToCall);
+button.addEventListener("click", function(){
+	h1.style.color = "pink";
+});
+
+h1.addEventListener("mouseover", function(){
+	this.style.color = "blue";});
