@@ -1,53 +1,58 @@
-var p1D = document.getElementById("player1D");
-var p2D = document.getElementById("player2D");
-var scoring = document.getElementById("scoring");
-var p1 = document.getElementById("p1");
-var p2 = document.getElementById("p2");
-var reset = document.getElementById("reset");
-var input = document.querySelector("input");
-var count1 = 0;
-var count2 = 0;
-var gameOver = false;
-var winingScore = 5;
+let player1D = document.getElementById("player1D");
+let player2D = document.getElementById("player2D");
+let scoring = document.querySelector("#scoring");
+let input = document.querySelector("input");
+let p1 = document.getElementById("p1");
+let p2 = document.getElementById("p2");
+let reset = document.getElementById("reset");
+let count1 = 0;
+let count2 = 0;
+let gameOver = false;
+let winningScore = 5;
 
 p1.addEventListener("click", function(){
 	if(!gameOver){
 		count1 ++;
-		if (count1 === winingScore) {
+		if(count1 === winningScore){
 			gameOver = true;
-			p1D.classList.add("winner");
+			player1D.classList.add("winner");
 		}
-		p1D.textContent = count1;
+		player1D.textContent = count1;
 	}
 });
 
 p2.addEventListener("click", function(){
 	if(!gameOver){
 		count2 ++;
-		if (count2 === winingScore) {
+		if(count2 === winningScore){
 			gameOver = true;
-			p2D.classList.add("winner");
+			player2D.classList.add("winner");
 		}
-		p2D.textContent = count2;
+		player2D.textContent = count2;
 	}
 });
 
 input.addEventListener("change", function(){
+	if(input.value > 0){
 	scoring.textContent = input.value;
-	winingScore = Number(input.value);
-	reset();
-})
-
-reset.addEventListener("click",function(){
-	reset();
+	winningScore = Number(input.value);
+	rs();
+	}
+	else {
+	winningScore = 5;
+	}
 });
 
-var reset = function(){
-	p1D.textContent = 0;
-	p2D.textContent = 0;
+reset.addEventListener("click", function(){
+	rs();
+});
+
+var rs = function() {
 	count1 = 0;
 	count2 = 0;
-	p1D.classList.remove("winner");
-	p2D.classList.remove("winner");
+	player1D.textContent = 0;
+	player2D.textContent = 0;
+	player1D.classList.remove("winner");
+	player1D.classList.remove("winner");
 	gameOver = false;
 };
