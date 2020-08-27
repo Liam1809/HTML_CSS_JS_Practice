@@ -1,4 +1,4 @@
 $("div").css("background", "purple");
 $(".highlight").css("width", "200px");
 $("#third").css("border", "1px solid orange");
-var first = $("div:first-of-type").css("color", "pink");
+$("div:first-of-type").css("color", "pink");
