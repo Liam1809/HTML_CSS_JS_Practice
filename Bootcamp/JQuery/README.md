@@ -52,3 +52,12 @@ $("li").css("color", "yellow");
 //and give them an orange border
 $(".big").css("border", "1px dashed orange");
 ```
+
+## [Common JQuery Methods](https://api.jquery.com)
+- val()
+- text()
+- html()
+- attr()
+- addClass()
+- removeClass()
+- toggleClass()
