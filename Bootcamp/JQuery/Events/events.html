@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Events</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<style type="text/css">
+		.selected {
+			background: pink;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+<h1>jQuery Events</h1>
+<h1>jQuery Events</h1>
+<h1>jQuery Events</h1>
+
+<input type="checkbox">
+<input type="text" placeholder="write something">
+<input type="radio">
+
+<button>Don't Click Me</button>
+<button>Sersiouly Don't Click Me</button>
+<button>This is your last warning!</button>
+
+<script type="text/javascript">
+	// click()
+	let colorChange = {
+		color: "white",
+		background: "black"
+	}
+	$("h1").click(function(){
+		$(this).toggleClass("selected");
+	});
+	$("button").first().click(function(){
+		$(this).css(colorChange);
+		alert("Don't Click Me");
+	});
+	$("button:nth-of-type(2)").first().click(function(){
+		$(this).css(colorChange);
+		alert("Sersiouly Don't Click Me");
+	});
+	$("button").last().click(function(){
+		$(this).css(colorChange);
+		alert("This is your last warning!");
+	});	
+</script>
+</body>
+</html>
