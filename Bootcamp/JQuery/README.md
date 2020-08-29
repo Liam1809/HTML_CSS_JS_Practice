@@ -150,3 +150,20 @@ $("button").on("mouseleave", function(){
         $(this).css("color", "black");
 });
 ```
+
+## Effects
+
+- fadeOut()
+- fadeIn()
+- fadeToggle()
+- slideDown()
+- slideUp()
+- slideToggle()
+
+```sh
+$("button").on("click", function(){
+ $('div').slideToggle(1000, function(){
+    console.log("Clicked");
+ });
+});
+```
