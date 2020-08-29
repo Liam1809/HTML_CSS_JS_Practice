@@ -120,3 +120,33 @@ $('input[type="text"').keypress(function(e){
         }
     });
 ```
+
+### on()
+- jQuery's on() works similarly to addEventListener.​ It lets you specify the type of event to listen for.
+
+```sh
+//double click event
+$('button').on('dblclick', function(){
+  alert("DOUBLE CLICKED!");
+});
+
+//drag start event
+$('a').on('dragstart', function(){
+  console.log("DRAG STARTED!");
+});
+
+//keypress event
+$('input[type="text"').on('keypress', function(){
+  alert("key press in an input!")
+});
+
+//mouseenter
+$("button").on("mouseenter", function(){
+        $(this).css("color", "pink");
+});
+
+//mouseleave
+$("button").on("mouseleave", function(){
+        $(this).css("color", "black");
+});
+```

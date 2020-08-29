@@ -30,7 +30,8 @@
 		color: "white",
 		background: "black"
 	};
-	$("h1").click(function(){
+	// on()
+	$("h1").on("click",function(){
 		$(this).toggleClass("selected");
 	});
 	$("button").first().click(function(){
@@ -54,7 +55,13 @@
 			$(this).val("");
 		}
 	});
-	
+	// on()
+	$("button").on("mouseenter", function(){
+		$(this).css("color", "pink");
+	});
+	$("button").on("mouseleave", function(){
+		$(this).css("color", "black");
+	});
 </script>
 </body>
 </html>
