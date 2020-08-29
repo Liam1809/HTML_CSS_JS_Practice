@@ -29,7 +29,7 @@
 	let colorChange = {
 		color: "white",
 		background: "black"
-	}
+	};
 	$("h1").click(function(){
 		$(this).toggleClass("selected");
 	});
@@ -44,7 +44,17 @@
 	$("button").last().click(function(){
 		$(this).css(colorChange);
 		alert("This is your last warning!");
-	});	
+	});
+	// keypress()
+	$('input[type="text"').keypress(function(e){
+		// console.log(e);
+		if(e.which === 13) {
+			let text = $(this).val();
+			console.log(text);
+			$(this).val("");
+		}
+	});
+	
 </script>
 </body>
 </html>

@@ -72,3 +72,51 @@ $(".big").css("border", "1px dashed orange");
         - removeClass("selectedHere")
 - toggleClass()
         - toggleClass("selectedHere")
+
+## Events
+
+### click()
+- jQuery's click() method is a quick and easy way to add a click listener to element(s)
+
+```sh
+//prints when item with id 'submit' is clicked
+$('#submit').click(function(){
+  console.log("Another click");
+});
+
+//alerts when ANY button is clicked
+$('button').click(function(){
+  alert("Someone clicked a button");
+});
+
+let colorChange = {
+        color: "white",
+        background: "black"
+    };
+    $("h1").click(function(){
+        $(this).toggleClass("selected");
+    });
+    $("button").first().click(function(){
+        $(this).css(colorChange);
+        alert("Don't Click Me");
+    });
+```
+
+### keypress()
+- jQuery's keypress() method is a quick and easy way to add a keypress listener to element(s)
+
+```sh
+//listen for any keypress in any text input
+$('input[type="text"').keypress(function(){
+  alert("text input keypress!");
+});
+
+$('input[type="text"').keypress(function(e){
+        // console.log(e);
+        if(e.which === 13) {
+            let text = $(this).val();
+            console.log(text);
+            $(this).val("");
+        }
+    });
+```
