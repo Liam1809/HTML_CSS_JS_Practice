@@ -25,3 +25,7 @@
 # background shorthand syntax
 - background: [background-image] [background-position] / [background-size] [background-repeat] [background-attachment] [background-origin] [background-clip] [background-color];
 - [background shorthand syntax](https://www.webfx.com/blog/web-design/responsive-background-image/)
+
+# [Uigradients](https://uigradients.com/)
+
+# [Color Pallete](https://colorhunt.co/)
