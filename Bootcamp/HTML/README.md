@@ -16,7 +16,10 @@
 ## \<section\> - groups related content
 ## \<article\> - groups independent, self-contained content
 -  An article is for standalone content, and a section is for grouping thematically related content. They can be used within each other, as needed. For example, if a book is the article, then each chapter is a section. When there's no relationship between groups of content, then use a div.
+
 # Responsive Web Design Principles
 ## ![alt text](https://github.com/Liam1809/HTML_CSS_JS_Practice/blob/master/Bootcamp/HTML/ImageResponsive.png)
 ## ![alt text](https://github.com/Liam1809/HTML_CSS_JS_Practice/blob/master/Bootcamp/HTML/RetinaImage.png)
 ## ![alt text](https://github.com/Liam1809/HTML_CSS_JS_Practice/blob/master/Bootcamp/HTML/Typography.png)
+
+# [Responsive Grid ](http://www.responsivegridsystem.com/)

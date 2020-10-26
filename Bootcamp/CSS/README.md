@@ -29,3 +29,9 @@
 # [Uigradients](https://uigradients.com/)
 
 # [Color Pallete](https://colorhunt.co/)
+
+# [Social Media ](https://www.lockedownseo.com/social-media-colors/)
+
+# [ion icons](https://ionicons.com/)
+
+# [Lighten and darker colors](https://www.0to255.com/)
